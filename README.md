@@ -16,12 +16,11 @@ associação possa oferecer acompanhamento antes que o atraso aconteça.
 │   ├── features_modelo.pkl          # Lista das variáveis de entrada
 │   └── feature_importance.csv       # Importância de cada indicador
 ├── notebooks/
-│   └── Código pós.ipynb    # Treinamento e avaliação do modelo (Google Colab)
+│   └── Código_pós.ipynb    # Treinamento e avaliação do modelo (Google Colab)
 ├── dados/
 │   └── BASE DE DADOS PEDE 2024 - DATATHON (2).xlsx_4598.xlsx
-└── docs/
-    ├── Analise de indicadores.pdf   # Análise dos indicadores (IAN, IDA, IEG, IAA, IPS, IPP, IPV)
-    └── Analise de indicadores.docx
+└── analise_indicadores/
+    └── Analise de indicadores.pdf   # Análise dos indicadores (IAN, IDA, IEG, IAA, IPS, IPP, IPV)
 ```
 
 ## Modelo preditivo
@@ -63,7 +62,7 @@ Os indicadores mais importantes para o modelo foram **IPP** (24%), **INDE 2023**
 
 ### Notebook
 
-Abra `notebooks/Código pós.ipynb` no Google Colab, execute todas as células e, quando
+Abra `notebooks/Código_pós.ipynb` no Google Colab, execute todas as células e, quando
 solicitado, envie a planilha da pasta `dados/`.
 
 ### Aplicação Streamlit
