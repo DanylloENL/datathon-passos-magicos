@@ -1,0 +1,8 @@
+# Ambiente Python
+.venv/
+__pycache__/
+
+# Arquivos locais
+.claude/
+~$*
+Plano_Grupo_Datathon_Passos.docx
