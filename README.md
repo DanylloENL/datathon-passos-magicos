@@ -6,6 +6,10 @@ Projeto do Tech Challenge (POSTECH) com a base de desenvolvimento educacional da
 O objetivo é identificar antecipadamente alunos com risco de defasagem, para que a
 associação possa oferecer acompanhamento antes que o atraso aconteça.
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://datathon-paapps-magicos-8dsrdqliarda6sfr5rfmwn.streamlit.app/)
+
+**Aplicação online:** https://datathon-paapps-magicos-8dsrdqliarda6sfr5rfmwn.streamlit.app/
+
 ## Estrutura do repositório
 
 ```
@@ -66,6 +70,10 @@ Abra `notebooks/Código_pós.ipynb` no Google Colab, execute todas as células e
 solicitado, envie a planilha da pasta `dados/`.
 
 ### Aplicação Streamlit
+
+A forma mais fácil é acessar a
+[aplicação online](https://datathon-paapps-magicos-8dsrdqliarda6sfr5rfmwn.streamlit.app/),
+sem instalar nada. Para rodar localmente:
 
 ```bash
 python -m venv .venv
