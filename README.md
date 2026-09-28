@@ -20,12 +20,18 @@ associação possa oferecer acompanhamento antes que o atraso aconteça.
 │   ├── features_modelo.pkl          # Lista das variáveis de entrada
 │   └── feature_importance.csv       # Importância de cada indicador
 ├── notebooks/
-│   └── Código_pós.ipynb    # Treinamento e avaliação do modelo (Google Colab)
+│   ├── analise_de_indicadores.ipynb # Análise dos indicadores (desafios 1 a 7)
+│   └── Código_pós.ipynb             # Treinamento e avaliação do modelo (desafio 9)
 ├── dados/
 │   └── BASE DE DADOS PEDE 2024 - DATATHON (2).xlsx_4598.xlsx
-└── analise_indicadores/
-    └── Analise de indicadores.pdf   # Análise dos indicadores (IAN, IDA, IEG, IAA, IPS, IPP, IPV)
+├── analise_indicadores/
+│   └── Analise de indicadores.pdf   # Relatório da análise dos indicadores
+└── apresentacao/
+    └── Datathon_PÓS-tecH.pptx       # Apresentação de storytelling (desafios 1 a 11)
 ```
+
+A limpeza e a padronização dos dados foram feitas diretamente no Excel, na própria
+planilha da pasta `dados/`.
 
 ## Modelo preditivo
 
@@ -64,10 +70,17 @@ Os indicadores mais importantes para o modelo foram **IPP** (24%), **INDE 2023**
 
 ## Como rodar
 
-### Notebook
+### Notebooks
 
-Abra `notebooks/Código_pós.ipynb` no Google Colab, execute todas as células e, quando
-solicitado, envie a planilha da pasta `dados/`.
+Os dois notebooks foram feitos no Google Colab e já estão salvos com os resultados,
+então é possível ver as tabelas e os gráficos direto no GitHub.
+
+- **Modelo (`Código_pós.ipynb`):** execute todas as células e, quando solicitado,
+  envie a planilha da pasta `dados/`.
+- **Análise (`analise_de_indicadores.ipynb`):** antes de executar, envie a planilha
+  para o Colab (ícone de pasta na lateral) com o nome
+  `BASE DE DADOS PEDE 2024 - DATATHON (2).xlsx`, pois o notebook lê o arquivo em
+  `/content/BASE DE DADOS PEDE 2024 - DATATHON (2).xlsx`.
 
 ### Aplicação Streamlit
 
