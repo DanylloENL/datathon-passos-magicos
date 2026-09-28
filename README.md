@@ -27,7 +27,8 @@ associação possa oferecer acompanhamento antes que o atraso aconteça.
 ├── analise_indicadores/
 │   └── Analise de indicadores.pdf   # Relatório da análise dos indicadores
 └── apresentacao/
-    └── Datathon_PÓS-tecH.pptx       # Apresentação de storytelling (desafios 1 a 11)
+    ├── Datathon_PÓS_tecH.pdf        # Apresentação de storytelling em PDF (desafios 1 a 11)
+    └── Datathon_PÓS-tecH.pptx       # Apresentação original em PowerPoint
 ```
 
 A limpeza e a padronização dos dados foram feitas diretamente no Excel, na própria
