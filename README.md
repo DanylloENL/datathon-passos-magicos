@@ -1,5 +1,12 @@
 # Datathon Passos Mágicos — Risco de Defasagem
 
+> ### Em resumo
+> **Problema:** identificar com antecedência quais alunos da Associação Passos Mágicos têm risco de defasagem escolar, para oferecer acompanhamento antes que o atraso aconteça.  
+> **Solução:** análise dos indicadores educacionais de 765 alunos, comparação de três modelos e uma aplicação web para a equipe consultar o risco de um aluno ou de uma lista inteira.  
+> **Ferramentas:** Python, pandas, scikit-learn (Random Forest), Streamlit.  
+> **Resultado:** modelo com 85% de acurácia e ROC-AUC de 91,8% no teste, publicado em uma [aplicação online](https://datathon-risco-defasagem.streamlit.app/) com previsão individual e em lote.  
+> **Como isso ajuda um cliente:** a mesma lógica serve para priorizar clientes com maior risco de cancelar ou atrasar pagamentos, e entregar isso numa ferramenta simples de usar.  
+
 Projeto do Tech Challenge (POSTECH) com a base de desenvolvimento educacional da
 **Associação Passos Mágicos** (PEDE 2022–2024).
 
